@@ -39,18 +39,20 @@ Tela completa com Provider que trata todos os estados possíveis de uma requisi�
 
 ## Estrutura
 
+```
 lib/
 ├── main.dart
 ├── presentation/
-│ ├── home.dart # Fase 1 — setState + CEP
-│ ├── home2.dart # Fase 2 — Provider + CEP
-│ ├── home3.dart # Fase 3A — setState + ListView
-│ ├── home4.dart # Fase 3B — FutureBuilder
-│ └── home5.dart # Fase 4 — 4 estados com Provider
+│   ├── home.dart        # Fase 1 — setState + CEP
+│   ├── home2.dart       # Fase 2 — Provider + CEP
+│   ├── home3.dart       # Fase 3A — setState + ListView
+│   ├── home4.dart       # Fase 3B — FutureBuilder
+│   └── home5.dart       # Fase 4 — 4 estados com Provider
 └── provider/
-├── provider_home.dart
-├── provider_home2.dart
-└── provider_home3.dart
+    ├── provider_home.dart
+    ├── provider_home2.dart
+    └── provider_home3.dart
+```
 
 ## Como rodar
 
